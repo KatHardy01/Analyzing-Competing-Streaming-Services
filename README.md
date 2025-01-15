@@ -26,7 +26,7 @@ What is the appeal of streaming services? What makes the 'best' streaming servic
 Many analysts predict that the industry _will_ continue to trend upwards in the upcoming years. However, the higher prices, lack of content, and recent 'ads' have caused users to become disenchanted. So what does the future hold, and how can we help these companies maintain subscribers?  
 
 ## Questions to Ask
-* Which streaming service has the most content? Why? Is this a positve or negative when looking at a streaming service? 
+* Which streaming service has the most content? Why? Is this a positve or a negative when looking at a streaming service? 
 * Which streaming service has the highest IMDB rating. Which streaming service has the lowest? 
 * What are the most popular movies and tv shows of the highest rated streaming service? What are the most popular titles of each? 
 * How can we improve the lowest rated streaming service? What are the future aspects we can look at regarding demographic information and membership anaylsis? 
@@ -40,57 +40,121 @@ In this section, we took various datasets that were similar in information. Data
 After datasets were loaded and previewed, analysis was performed. 
 
     2.1: New columns were created to identify and categorize each 'streaming service' name within the DataFrames. 
-    All DataFrames were combined into a single DataFrame (_all_data_). 
+    All DataFrames were combined into a single DataFrame (all_data). 
     
-    2.2: Content type by streaming service (i.e., Movie vs TV Shows) was determined. 
-    The data was plotted using a bar plot to visualize and determined which streaming service had the most content within their library. 
+    2.2: Content type by streaming service (i.e., Movie vs TV Shows) was determined. The data was plotted using a bar plot 
+    to visualize and determine which streaming service 
+    had the most content within their library. 
     
-    2.3: The IMDB rating was established and determined for each streaming service. 
-    It was determined which streaming service had the highest average IMDB rating. A pie chart was used to visualize the five streaming services. 
+    2.3: The IMDB rating was established and determined for each streaming service. It was determined which streaming service 
+    had the highest average IMDB rating. A pie chart was used 
+    to visualize the five streaming services. 
 
 ### Part 3: HBO Max Data Analysis and Visualization 
 After determining that HBO Max was the most popular streaming service in regards to the highest IMDB rating, we then took the data given and analyzed it further. 
 
     3.1: A statistical summary was taken to determine the IMDB rating for HBO max.
     
-    3.2: Data visualization was performed using Matplotlub and Seaborn. Here, we looked at the number of movie and tv shows, the top 10 movies and TV shows, and the most popular genres to better understand why HBO Max out-performed the other streaming services.
+    3.2: Data visualization was performed using Matplotlub and Seaborn. Here, we looked at the number of movie and 
+    TV shows, the top 10 movies and TV shows, 
+    and the most popular genres to better understand 
+    why HBO Max out-performed the other streaming services.
 
 ### Part 4: Data Visualization of the Least Popular Streaming Service 
 Lastly, we took the least popular streaming service based on the data obtained and analyzed it further. This was done to determined how we could possibly help improve the streaming service and see why it did so poorly in regards to IMDB rating. A new [CSV file](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset) was used to analyze the data. 
 
 NOTE: Amazon Prime was considered the least popular streaming service based on the data obtained. However, there was not enough data available to us to properly analyze in order to determine how to improve the streaming service. Netflix was the second least popular in ratings. 
 
-    4.1: A new CSV file was uploaded, cleaned, and analyzed. It was already pretty organized so we did not have to do much. 
+    4.1: A new CSV file was uploaded, cleaned, and analyzed. 
+    It was already pretty organized so we did not have to do much. 
 
     4.2: The data was reviewed to determine how Netflix can improve in the future and what aspects to look for:
-        Demographic information: gender, age, location by country, and devices used
+       - Demographic information: gender, age, location by country, and devices used
 
-        Membership analysis: subscription type and user length
+       - Membership analysis: subscription type and user length
 
 
 ## Results & Analysis 
-### Streaming Service Analysis
+#### Part 1: Content Type by Streaming Service: Movies & TV
 
-**Content Type by Streaming Service: Movies & TV**
+**Question 1: Which streaming service has the most content? Why? Is this a positive or a negative when looking at a streaming service**
 
  ![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Content_Type_by_Streaming.png?raw=true)
 
 
+Based on our findings, Amazon Prime Video had the most content by type on their streaming platform. They superseeded the others expoentially with their movie and TV libaries. Why? Well, it can be concluded by the visuals provided that Amazon's catalog of both movies and TV shows are extensive. This is impart becasue Amazon offers a streaming service through 'Prime Video' when paying for the 'Prime Subscription.' Here, they offer 'Prime Originals' and 'exclusive' movies. Again, these are all included within the subscription. However, they also allow access to other movies and TV shows that can be purchased or rented. 
+
+Is this a positive or a negative? Yes, and no. As discussed, most subscribers do not want to have to pay an additional fee to have access to movies when they are already paying for the streaming service. With other streaming services (i.e. Netflix, HBO Max, Hulu), the average subscriber pays for the service and the content is included. There are no additional costs unless there is a change in plan (basic vs premium).However, with Prime Video, the subscriber is looking at paying for their plan and additional fees when they want to buy or rent a movie or TV show. Again, this adds up overtime and can become costly which can deter the customer. 
+
+A positive to all of this is that all the content is in one place. One can 'subscribe' to other streaming services through Prime Video (i.e., Paramount Plus, PBS, Masterpiece, Showtime, Discovery +, AMC, etc.), and they can even have access to HBO Max content. Altogether, these are separate streaming services that the subscriber would have to pay for and download an app to receive content. Whereas Amazon Prime Video makes it so all the content is within one streaming service.  
 
 
-Which streaming service has the most content? 
-    * Based on our findings, Amazon Prime Video had the most content by type on their streaming platform. They superseeded the others expoentially with their movie and TV libaries. 
+**Question 2: Which streaming service has the highest IMDB rating. Which streaming service has the lowest?**
 
-Part 3 
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/IMDB_Average_Rating_by_Streaming_Service.png?raw=true)
+
+Based on the data, HBO Max had the highest overall IMDB rating at 20.9%. There is only a slight margin of difference between the other streaming services. Hulu falling at 20.5% and Netflix and Apple TV at 20.0%. The lowest IMDB rating was Amazon Prime Video at 18.6%. Why? Well, earlier when we looked at each streaming services full catelogue, Amazon Prime came in first with over 50,000 movies and 7,158 TV shows, while HBO had the least amount with only 5,826 movies, and 3,602 TV shows.
+
+What does this tell us? We can conclude that HBO's high average IMDB score suggests that it is succeeding in terms of content quality. This success can be attributed to HBO's focus on producing high-quality, critically acclaimed shows and movies. HBO's strategy of investing in original content with strong storytelling and high production values makes it a clear contender for one of the best streaming services. 
+
+#### Part 2: HBO Max Data Analysis and Visualization 
+**Question 3: What are the most popular movies and tv shows of the highest rated streaming service? What are the most popular titles of each?**
+
+![alt text]?raw=true) - top ten movies genres 
+
+Based on the data, it can be determined that 'Drama' is the highest ranking movie genre in HBO's catalog. There is a significant dip in 'Comedy' ranking in second, with 'Documentary' in third. 
+
+![alt text]?raw=true) - top ten tv genres 
+
+Based on the data, it can be determined that 'Documentary' is the highest ranking TV show genre. In second, it's 'Reality-TV' and third is 'Drama'. 
+
+![alt text]?raw=true) - side by side 
+
+When the top ten movies and TV shows were plotted side-by-side, it could be seen that there is little variation in IMDB ranking. The margin of difference between the top 10 movies was 0.5, and for TV shows, it was 0.3. This goes onto show that for all the top 10 movies and TV shows, they were ranked similarly within IMDB scores.
+
+"Shawshank Redemption" was the top-rated movie title for HBO. Then 'Celebrity Habla" and "The Godfather". Also, when looking at the data visualization, most of the top 10 movie titles were popular ones. This continues to prove HBO's strategy of investing and providing high-quality, critically acclaimed movies such as _Harry Potter_, _Lord of the Rings_, and _The Dark Knight_. For TV shows, _Planet Earth II_ came in first for most popular TV shows, with _Band of Brothers_ in close second and _Plant Eart I_ in third. Other popular titles are original HBO TV shows such as _Chernobyl_, _The Sopranos_, and _Game of Thrones_.
+
+#### Part 3: Least Popular Streaming Service  
+**Question 4: How can we improve the lowest rated streaming service? What are the future aspects we can look at regarding demographic information and membership anaylsis?**
+
+When this question was proposed, we wanted to look at two main factors and the minor aspects of them in regards to the data. 1) Demographic Information and 2) Membership Analysis. 
+
+![alt text]?raw=true) - gender distribution? 
+
+The data shows that 50.3% of females use Netflix, contrasting the 49.7% of male viewers and streamers. Why is that? Well, it can be assumed that with the rise of Reality-TV shows and more content originals on Netflix, they favor towards a female audience. 
+
+![alt text]?raw=true) - age
+
+The average age is 38 years old. While the minimum age is 27 and the maximum is 51. 
+
+Before visualizing and analyzing the data, we predicted that the average age would be lower (19-21), focusing on 'Collage Age' subscribers. However, the data does make sense given that it correlates to the fact that most young adults in their 20s use streaming services, and most within the age range of 25-35 grew up with the rise of these types of platforms (i.e., Gen Z). They are most likely to spend money on streaming services, whereas the older generation is more loyal to traditional cable and TV. As the nature of technology increases, it can be found that more and more of the older generation use streaming services. 
+
+![alt text]?raw=true) - location (add ineractive map??)
+
+The United States has the most number of Netflix users based on the select data provided. This correlates since Netflix started in the States. The second most poplar country is Spane and then Canada. There is a significant dip in users in the UK, Australia, Germany, France, Brazil, Mexico, and Italy. The inteactive map using Plotly helps visualize the data more clearly to see the differences in usage based on size. 
+
+![alt text]?raw=true) - devices 
+
+Based on the data, the laptop is the most popular device used, with the tablet as a close second. It is interesting to note that a Smart TV is last with the number of users in the dataset. Prior to this, we assumed that it would have more since most people watch streaming services on their TVs. Why might that be? Well, it could be assumed that many people prefer to watch shows on a smaller device when they are working, or even if we look at the hypothetical that most children use their parents accounts to stream movies and TV shows. It is portiable and on the go for those who travel, work, or are away from their Smart TVs. 
+
+![alt text]?raw=true) - membership length 
+
+Based on the data, the average membership length is 326 days. When looking at the Wisker plot, it was interpreted that most people cancel their subscription close to a year into their service. Why is that? Well, most subscription services increase their rates around a year into service. Again, the number of streaming services adds up over time, and the average American has found it hard to maintain the added fees and price increases over time. 
+
+According to an article in the New York Times, most subscribers find it frustrating to have several differnt subscription services and everything is not always in the same place so they have to switch back and forth (Source: [Koblin, J. (2024)](https://www.nytimes.com/2024/04/20/business/media/streaming-subscription-jumping.html#:~:text=Now%2C%20with%20a%20pared%2Ddown,are%20making%20me%20do%20this.”). Also the other main factor, espically with Netflix, is that it no longer fits their budget and the price is too expensive. This was seen signifcantly during the crackdown on 'sharing passwords' and having multiple accounts logged in at the same time with Netflix. According to a survay from 2023, a majority of U.S. consumers who have canceld their video streaming subscription did so because of price, which is around one in four respondents, another 13% said there was better content on other platform (Source: [Stroll, J (2024)](https://www.statista.com/statistics/672663/reasons-cancel-streaming-subscriptions/#:~:text=Reasons%20for%20canceling%20video%20streaming%20subscriptions%20in%20the%20U.S.%202023&text=According%20to%20a%20survey%20from,no%20longer%20fit%20their%20budgets.). 
+
+![alt text]?raw=true) - plan type 
+
+It is interpreted that the 'Basic' subscription plan is the most popular at 40%, with 'Standard' coming in second at 30.7%, and last with 'Premium' at 29.3%. Why is this? Well, again, as mentioned above, cost is one of the main factors. 
+
 
 ### Challenges 
 Through data analysis and visualization, we were able to see this clearly and determine such. Some challenges we faced during this was the amount of data we could pull online and the content avilable. We were not able to find any data for Amazon Prime, which was the lowest rated streaming service, so we had to use Netflix which came in second lowest. We also wished to analyze HBO more, but there was little free data avilable to us. 
 
 
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
-
-
 ## Conclusion
+
+
 
 
 ## Datasets Used: 
@@ -107,15 +171,14 @@ Through data analysis and visualization, we were able to see this clearly and de
 * [Hulu Notebook](https://github.com/KatHardy01/Project-1/blob/main/Hulu_data/Hulu%20Dataset.ipynb)
 * [HBO Max Notebook](https://github.com/KatHardy01/Project-1/blob/main/HBO_data/HBO%20dataset.ipynb)
 * [Netflix](https://github.com/KatHardy01/Project-1/blob/main/Hulu_data/Hulu%20Dataset.ipynb)
-* [Master Analysis]()
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* [Master Analysis](https://github.com/KatHardy01/Project-1/blob/main/Notebooks/Master%20Analysis.ipynb)
 
 
 ## Slideshow Presentation Link
 * [Competing Streaming Services Slidedeck](https://docs.google.com/presentation/d/1dDlaAHCHg8Mvsx-IGkSL6iZ6WL2cq6LK_y2lsOxYR3g/edit?usp=sharing)
 
-## Contact
+## Sources Cited 
+
 
 
 
