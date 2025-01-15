@@ -42,23 +42,19 @@ After datasets were loaded and previewed, analysis was performed.
     2.1: New columns were created to identify and categorize each 'streaming service' name within the DataFrames. 
     All DataFrames were combined into a single DataFrame (all_data). 
     
-    2.2: Content type by streaming service (i.e., Movie vs TV Shows) was determined. The data was plotted using a bar plot 
-    to visualize and determine which streaming service 
-    had the most content within their library. 
+    2.2: Content type by streaming service (i.e., Movie vs TV Shows) was determined. The data was plotted using a bar 
+    plot to visualize and determine which streaming 
+    service had the most content within their library. 
     
     2.3: The IMDB rating was established and determined for each streaming service. It was determined which streaming service 
-    had the highest average IMDB rating. A pie chart was used 
-    to visualize the five streaming services. 
+    had the highest average IMDB rating. A pie chart was used to visualize the five streaming services. 
 
 ### Part 3: HBO Max Data Analysis and Visualization 
 After determining that HBO Max was the most popular streaming service in regards to the highest IMDB rating, we then took the data given and analyzed it further. 
 
     3.1: A statistical summary was taken to determine the IMDB rating for HBO max.
     
-    3.2: Data visualization was performed using Matplotlub and Seaborn. Here, we looked at the number of movie and 
-    TV shows, the top 10 movies and TV shows, 
-    and the most popular genres to better understand 
-    why HBO Max out-performed the other streaming services.
+    3.2: Data visualization was performed using Matplotlub and Seaborn. Here, we looked at the number of movie and TV shows, the top 10 movies and TV shows, and the most popular genres to better understand why HBO Max out-performed the other streaming services.
 
 ### Part 4: Data Visualization of the Least Popular Streaming Service 
 Lastly, we took the least popular streaming service based on the data obtained and analyzed it further. This was done to determined how we could possibly help improve the streaming service and see why it did so poorly in regards to IMDB rating. A new [CSV file](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset) was used to analyze the data. 
@@ -69,9 +65,9 @@ NOTE: Amazon Prime was considered the least popular streaming service based on t
     It was already pretty organized so we did not have to do much. 
 
     4.2: The data was reviewed to determine how Netflix can improve in the future and what aspects to look for:
-       - Demographic information: gender, age, location by country, and devices used
+       - Demographic information: gender, age, location by country, and devices used.
 
-       - Membership analysis: subscription type and user length
+       - Membership analysis: subscription type and user length.
 
 
 ## Results & Analysis 
