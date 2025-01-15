@@ -39,11 +39,14 @@ In this section, we took various datasets that were similar in information. Data
 ### Part 2: Streaming Service Analysis 
 After datasets were loaded and previewed, analysis was performed. 
 
-    2.1: New columns were created to identify and categorize each 'streaming service' name within the DataFrames. All DataFrames were combined into a single DataFrame (_all_data_). 
+    2.1: New columns were created to identify and categorize each 'streaming service' name within the DataFrames. 
+    All DataFrames were combined into a single DataFrame (_all_data_). 
     
-    2.2: Content type by streaming service (i.e., Movie vs TV Shows) was determined. The data was plotted using a bar plot to visualize and determined which streaming service had the most content within their library. 
+    2.2: Content type by streaming service (i.e., Movie vs TV Shows) was determined. 
+    The data was plotted using a bar plot to visualize and determined which streaming service had the most content within their library. 
     
-    2.3: The IMDB rating was established and determined for each streaming service. It was determined which streaming service had the highest average IMDB rating. A pie chart was used to visualize the five streaming services. 
+    2.3: The IMDB rating was established and determined for each streaming service. 
+    It was determined which streaming service had the highest average IMDB rating. A pie chart was used to visualize the five streaming services. 
 
 ### Part 3: HBO Max Data Analysis and Visualization 
 After determining that HBO Max was the most popular streaming service in regards to the highest IMDB rating, we then took the data given and analyzed it further. 
