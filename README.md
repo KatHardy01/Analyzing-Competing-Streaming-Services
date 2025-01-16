@@ -8,12 +8,14 @@ The purpose of this project is to visualize the data of five different streaming
 * Kat Hardy & Madison Mihle 
 
 ### Methods Used
-* Inferential Statistics
+* Descriptive Statistics 
+* Correlation Analysis 
+* Grouping and Aggregation
 * Machine Learning
 * Data Visualization
-* Predictive Modeling
 
 ### Technologies
+* Visual Studio Code
 * Python
 * Pandas, Jupyter 
 * Matplotlib
@@ -45,9 +47,7 @@ After datasets were loaded and previewed, analysis was performed.
     2.2: Content type by streaming service (i.e., Movie vs TV Shows) was determined. The data was plotted using a bar 
     plot to visualize and determine which streaming service had the most content within their library. 
     
-    2.3: The IMDB rating was established and determined for each
-    streaming service. It was determined which streaming 
-    service had the highest average IMDB rating. A pie chart was used to visualize the five streaming services. 
+    2.3: The IMDB rating was established and determined for each streaming service. It was determined which streaming service had the highest average IMDB rating. A pie chart was used to visualize the five streaming services. 
 
 ### Part 3: HBO Max Data Analysis and Visualization 
 After determining that HBO Max was the most popular streaming service in regards to the highest IMDB rating, we then took the data given and analyzed it further. 
@@ -86,7 +86,6 @@ Is this a positive or a negative? Yes, and no. As discussed, most subscribers do
 
 A positive to all of this is that all the content is in one place. One can 'subscribe' to other streaming services through Prime Video (i.e., Paramount Plus, PBS, Masterpiece, Showtime, Discovery +, AMC, etc.), and they can even have access to HBO Max content. Altogether, these are separate streaming services that the subscriber would have to pay for and download an app to receive content. Whereas Amazon Prime Video makes it so all the content is within one streaming service.  
 
-
 **Question 2: Which streaming service has the highest IMDB rating. Which streaming service has the lowest?**
 
 ![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/IMDB_Average_Rating_by_Streaming_Service.png?raw=true)
@@ -117,6 +116,8 @@ When the top ten movies and TV shows were plotted side-by-side, it could be seen
 
 When this question was proposed, we wanted to look at two main factors and the minor aspects of them in regards to the data. 1) Demographic Information and 2) Membership Analysis. 
 
+1) Demographic Information: 
+
 ![alt text]?raw=true) - gender distribution? 
 
 The data shows that 50.3% of females use Netflix, contrasting the 49.7% of male viewers and streamers. Why is that? Well, it can be assumed that with the rise of Reality-TV shows and more content originals on Netflix, they favor towards a female audience. 
@@ -135,6 +136,8 @@ The United States has the most number of Netflix users based on the select data 
 
 Based on the data, the laptop is the most popular device used, with the tablet as a close second. It is interesting to note that a Smart TV is last with the number of users in the dataset. Prior to this, we assumed that it would have more since most people watch streaming services on their TVs. Why might that be? Well, it could be assumed that many people prefer to watch shows on a smaller device when they are working, or even if we look at the hypothetical that most children use their parents accounts to stream movies and TV shows. It is portiable and on the go for those who travel, work, or are away from their Smart TVs. 
 
+2) Membership Analysis: 
+
 ![alt text]?raw=true) - membership length 
 
 Based on the data, the average membership length is 326 days. When looking at the Wisker plot, it was interpreted that most people cancel their subscription close to a year into their service. Why is that? Well, most subscription services increase their rates around a year into service. Again, the number of streaming services adds up over time, and the average American has found it hard to maintain the added fees and price increases over time. 
@@ -145,15 +148,15 @@ According to an article in the New York Times, most subscribers find it frustrat
 
 It is interpreted that the 'Basic' subscription plan is the most popular at 40%, with 'Standard' coming in second at 30.7%, and last with 'Premium' at 29.3%. Why is this? Well, again, as mentioned above, cost is one of the main factors. 
 
+We asked ourselves how we could help low rated streaming services improve. Through our analysis, we determined that most streaming platforms need to offer high quality and engaging content (mostly originals), and more high profile and award winning titles (i.e. _The Godfather_, _Lord of the Rings_, _Marval Saga_, _Avatar_, etc.). This helps ensure viewer approval ratings and also a higher IMDB overall score. Also catering to various age ranges and genders would be benifical to the streaming service. This will help pull a wider range of subscribers than just a select handfull. 
+
 
 ### Challenges 
-Through data analysis and visualization, we were able to see this clearly and determine such. Some challenges we faced during this was the amount of data we could pull online and the content avilable. We were not able to find any data for Amazon Prime, which was the lowest rated streaming service, so we had to use Netflix which came in second lowest. We also wished to analyze HBO more, but there was little free data avilable to us. 
+Some challenges we faced during this was the amount of data we could pull online and the content avilable. We were not able to find any actual data for Amazon Prime, which was the lowest rated streaming service, so we had to use Netflix which came in second lowest. We also wished to analyze HBO more, but there was little free data avilable to us. This is why we selected Netflix since we were able to find a CSV file of a section of data from the company. 
 
 
 ## Conclusion
-
-
-
+Overall, whether we want to acknolge it or not, streaming platforms are the future and they will only continue to grow as technology prospers. This can be a good and bad thing in this day and age as the rapid rate of technology evolution changes what the average human knows. The downside to all of this is that as the demand increases, so does the cost of the servive and the avibility of titles on each different streaming platform. As seen earlier, not every platform has the same titles, which pushes for the need to enroll in several different streaming services. Lastly, it's not always that more content equals a higher rating, and that can be seen with Amazon. Netflix's issue, however, is most likely do to the crack down on password sharing and constant increased costs overtime. Deeper analysis into stock portfolio and quartly profit will need to be evaulated.  
 
 ## Datasets Used: 
 - [Amazon Prime Video](https://www.kaggle.com/datasets/octopusteam/full-amazon-prime-dataset)
