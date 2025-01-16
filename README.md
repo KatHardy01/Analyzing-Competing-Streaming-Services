@@ -128,7 +128,7 @@ The data shows that 50.3% of females use Netflix, contrasting the 49.7% of male 
 
 The average age is 38 years old. While the minimum age is 27 and the maximum is 51. 
 
-Before visualizing and analyzing the data, we predicted that the average age would be lower (19-21), focusing on 'Collage Age' subscribers. However, the data does make sense given that it correlates to the fact that most young adults in their 20s use streaming services, and most within the age range of 25-35 grew up with the rise of these types of platforms (i.e., Gen Z). They are most likely to spend money on streaming services, whereas the older generation is more loyal to traditional cable and TV. As the nature of technology increases, it can be found that more and more of the older generation use streaming services. 
+Before visualizing and analyzing the data, we predicted that the average age would be lower (19-21), focusing on 'Collage Age' subscribers. However, the data does make sense given that it correlates to the fact that most young adults use streaming services, and most within the age range of 25-35 grew up with the rise of these types of platforms (i.e., Gen Z). They are most likely to spend money on streaming services, whereas the older generation is more loyal to traditional cable and TV [Karrer, F (2023)](https://research.mountain.com/insights/the-streaming-generation-gap-is-smaller-than-you-think/#:~:text=Last%20year%2C%20Nielsen%20found%20that,of%20the%20overall%20streaming%20pool.). As the nature of technology increases, it can be found that more and more of the older generation use streaming services. 
 
 ![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Country%20Counts%20NFX.png?raw=true)
 
@@ -185,6 +185,8 @@ Overall, whether we want to acknowledge it or not, streaming platforms are the f
 
 ## Sources Cited 
 Duarte. (2024) _Video streaming statistics: Trends and insights_. Exploding Topics. Retrieved January 15, 2025, from https://explodingtopics.com/blog/video-streaming-stats#
+
+Karrer. (2023). -The streaming generation gap is smaller than you think_. Mountain Research. Retrieved January 15, 2025, from https://research.mountain.com/insights/the-streaming-generation-gap-is-smaller-than-you-think/#:~:text=Last%20year%2C%20Nielsen%20found%20that,of%20the%20overall%20streaming%20pool.
 
 Koblin, J. (2024, April 20). _Streaming services are making me do this_. The New York Times. Retrieved January 15, 2025, from https://www.nytimes.com/2024/04/20/business/media/streaming-subscription-jumping.html#:~:text=Now%2C%20with%20a%20pared%2Ddown,are%20making%20me%20do%20this
 
