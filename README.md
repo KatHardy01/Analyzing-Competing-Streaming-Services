@@ -56,9 +56,10 @@ After determining that HBO Max was the most popular streaming service in regards
 
     3.1: A statistical summary was taken to determine the IMDB rating for HBO Max.
     
-    3.2: Data visualization was performed using Matplotlub and Seaborn. Here, we looked at the number of movies and TV shows, 
-    the top 10 movies and TV shows, and the most popular genres 
-    to better understand why HBO Max out-performed the other streaming services.
+    3.2: Data visualization was performed using Matplotlub and Seaborn. Here, we looked at the number of movies and 
+    TV shows, the top 10 movies and TV shows, and the 
+    most popular genres to better understand why HBO Max 
+    out-performed the other streaming services.
 
 ### Part 4: Data Visualization of the Least Popular Streaming Service 
 Lastly, we took the least popular streaming service based on the data obtained and analyzed it further. This was done to determine how we could possibly help improve the streaming service and see why it did so poorly in regards to IMDB rating. A new [CSV file](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset) was used to analyze the data. 
