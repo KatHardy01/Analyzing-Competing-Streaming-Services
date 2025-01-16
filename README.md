@@ -47,16 +47,18 @@ After datasets were loaded and previewed, analysis was performed.
     2.2: Content type by streaming service (i.e., Movie vs TV Shows) was determined. The data was plotted using a bar 
     plot to visualize and determine which streaming service had the most content within their library. 
     
-    2.3: The IMDB rating was established and determined for each streaming service. It was determined which streaming service had the highest average IMDB rating. A pie chart was used to visualize the five streaming services. 
+    2.3: The IMDB rating was established and determined for each streaming service. 
+    It was determined which streaming service had the highest 
+    average IMDB rating. A pie chart was used to visualize the five streaming services. 
 
 ### Part 3: HBO Max Data Analysis and Visualization 
 After determining that HBO Max was the most popular streaming service in regards to the highest IMDB rating, we then took the data given and analyzed it further. 
 
     3.1: A statistical summary was taken to determine the IMDB rating for HBO Max.
     
-    3.2: Data visualization was performed using Matplotlub and Seaborn. 
-    Here, we looked at the number of movies and TV shows, the top 10 
-    movies and TV shows, and the most popular genres to better understand why HBO Max out-performed the other streaming services.
+    3.2: Data visualization was performed using Matplotlub and Seaborn. Here, we looked at the number of movies and TV shows, 
+    the top 10 movies and TV shows, and the most popular genres 
+    to better understand why HBO Max out-performed the other streaming services.
 
 ### Part 4: Data Visualization of the Least Popular Streaming Service 
 Lastly, we took the least popular streaming service based on the data obtained and analyzed it further. This was done to determine how we could possibly help improve the streaming service and see why it did so poorly in regards to IMDB rating. A new [CSV file](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset) was used to analyze the data. 
@@ -97,15 +99,15 @@ What does this tell us? We can conclude that HBO's high average IMDB score sugge
 #### Part 2: HBO Max Data Analysis and Visualization 
 **Question 3: What are the most popular movies and TV shows of the highest-rated streaming service? What are the most popular titles of each?**
 
-![alt text]?raw=true) - top ten movies genres 
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Top_10_Movie_Genres.png?raw=true)
 
 Based on the data, it can be determined that 'Drama' is the highest-ranking movie genre in HBO's catalog. There is a significant dip in 'Comedy' ranking in second, with 'Documentary' in third. 
 
-![alt text]?raw=true) - top ten tv genres 
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Top_10_TV_Genres.png?raw=true)
 
 Based on the data, it can be determined that 'Documentary' is the highest-ranking TV show genre. In second it's 'Reality-TV' and third is 'Drama'. 
 
-![alt text]?raw=true) - side by side 
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Names_of_top_10_HBO.png?raw=true) 
 
 When the top ten movies and TV shows were plotted side-by-side, it could be seen that there was little variation in IMDB ranking. The margin of difference between the top 10 movies was 0.5, and for TV shows, it was 0.3. This goes onto show that for all the top 10 movies and TV shows, they were ranked similarly within IMDB scores.
 
@@ -118,7 +120,7 @@ When this question was proposed, we wanted to look at two main factors and minor
 
 1) Demographic Information: 
 
-![alt text]?raw=true) - gender distribution? 
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Gender_Distribution_of_Netflix_Users.png?raw=true)
 
 The data shows that 50.3% of females use Netflix, contrasting the 49.7% of male viewers and streamers. Why is that? Well, it can be assumed that with the rise of Reality TV shows and more content originals on Netflix, they favor a female audience. 
 
@@ -128,23 +130,25 @@ The average age is 38 years old. While the minimum age is 27 and the maximum is 
 
 Before visualizing and analyzing the data, we predicted that the average age would be lower (19-21), focusing on 'Collage Age' subscribers. However, the data does make sense given that it correlates to the fact that most young adults in their 20s use streaming services, and most within the age range of 25-35 grew up with the rise of these types of platforms (i.e., Gen Z). They are most likely to spend money on streaming services, whereas the older generation is more loyal to traditional cable and TV. As the nature of technology increases, it can be found that more and more of the older generation use streaming services. 
 
-![alt text]?raw=true) - location (add ineractive map??)
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Country%20Counts%20NFX.png?raw=true)
+
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Location_of_Netflix_Users.png?raw=true)
 
 The United States has the most number of Netflix users based on the select data provided. This correlates since Netflix started in the States. The second most popular country is Spane and then Canada. There is a significant dip in users in the UK, Australia, Germany, France, Brazil, Mexico, and Italy. The interactive map using Plotly helps visualize the data more clearly to see the differences in usage based on size. 
 
-![alt text]?raw=true) - devices 
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Devices_Used_by_Netflix_Users.png?raw=true)
 
 Based on the data, the laptop is the most popular device used, with the tablet as a close second. It is interesting to note that a Smart TV is last with the number of users in the dataset. Prior to this, we assumed that it would have more since most people watch streaming services on their TVs. Why might that be? Well, it could be assumed that many people prefer to watch shows on a smaller device when they are working, or even if we look at the hypothetical that most children use their parent’s account to stream movies and TV shows. It is portable and on the go for those who travel, work, or are away from their Smart TVs. 
 
 2) Membership Analysis: 
 
-![alt text]?raw=true) - membership length 
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Netflix_Membership_Length.png?raw=true)
 
 Based on the data, the average membership length is 326 days. When looking at the Wisker plot, it was interpreted that most people cancel their subscription close to a year into their service. Why is that? Well, most subscription services increase their rates around a year into service. Again, the number of streaming services adds up over time, and the average American has found it hard to maintain the added fees and price increases over time. 
 
 According to an article in the New York Times, most subscribers find it frustrating to have several different subscription services. Everything is not always in the same place, so they have to switch back and forth (Source: [Koblin, J. (2024)](https://www.nytimes.com/2024/04/20/business/media/streaming-subscription-jumping.html#:~:text=Now%2C%20with%20a%20pared%2Ddown,are%20making%20me%20do%20this.”). Also the other main factor, especially with Netflix, is that it no longer fits their budget and the price is too expensive. This was seen signifcantly during the crackdown on 'sharing passwords' and having multiple accounts logged in at the same time with Netflix. According to a survey from 2023, a majority of U.S. consumers who have canceled their video streaming subscription did so because of price, which is around one in four respondents, another 13% said there was better content on another platform (Source: [Stroll, J (2024)](https://www.statista.com/statistics/672663/reasons-cancel-streaming-subscriptions/#:~:text=Reasons%20for%20canceling%20video%20streaming%20subscriptions%20in%20the%20U.S.%202023&text=According%20to%20a%20survey%20from,no%20longer%20fit%20their%20budgets.). 
 
-![alt text]?raw=true) - plan type 
+![alt text](https://github.com/KatHardy01/Project-1/blob/main/Images/Netflix_Subscription_Type.png?raw=true)
 
 It is interpreted that the 'Basic' subscription plan is the most popular at 40%, with 'Standard' coming in second at 30.7% and last with 'Premium' at 29.3%. Why is this? Well, again, as mentioned above, cost is one of the main factors. 
 
@@ -153,7 +157,6 @@ We asked ourselves how we could help low rated streaming services improve. Throu
 
 ### Challenges 
 Some challenges we faced during this were the amount of data we could pull online and the content available. We were not able to find any actual data for Amazon Prime, which was the lowest-rated streaming service, so we had to use Netflix, which came in second lowest. We also wished to analyze HBO more, but there was little free data available to us. This is why we selected Netflix since we were able to find a CSV file of a section of data from the company. 
-
 
 ## Conclusion
 Overall, whether we want to acknowledge it or not, streaming platforms are the future, and they will only continue to grow as technology prospers. This can be a good and bad thing in this day and age as the rapid rate of technology evolution changes what the average human knows. The downside to all of this is that as the demand increases, so does the cost of the service and the availability of titles on each different streaming platform. As seen earlier, not every platform has the same titles, which pushes for the need to enroll in several different streaming services. Lastly, it's not always that more content equals a higher rating, and that can be seen with Amazon. Netflix's issue, however, is most likely due to the crackdown on password sharing and constantly increased costs over time. A deeper analysis of a stock portfolio and quarterly profit will need to be evaluated.  
@@ -167,23 +170,25 @@ Overall, whether we want to acknowledge it or not, streaming platforms are the f
 - [Netflix Userbase](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset)
 
 ## Featured Notebooks/Analysis
-* [Amazon Prime Notebook](https://github.com/KatHardy01/Project-1/blob/main/Amazon_Prime_data/Amazon%20Prime%20Dataset.ipynb)
-* [Apple TV Notebook](https://github.com/KatHardy01/Project-1/blob/main/Apple_data/Apple%20dataset.ipynb)
-* [Hulu Notebook](https://github.com/KatHardy01/Project-1/blob/main/Hulu_data/Hulu%20Dataset.ipynb)
-* [HBO Max Notebook](https://github.com/KatHardy01/Project-1/blob/main/HBO_data/HBO%20dataset.ipynb)
-* [Netflix](https://github.com/KatHardy01/Project-1/blob/main/Hulu_data/Hulu%20Dataset.ipynb)
+* [Amazon Prime Notebook](https://github.com/KatHardy01/Project-1/blob/main/Notebooks/Cleaned_Files/Amazon%20Prime%20Dataset.ipynb)
+* [Apple TV Notebook](https://github.com/KatHardy01/Project-1/blob/main/Notebooks/Cleaned_Files/Apple%20Dataset.ipynb)
+* [Hulu Notebook](https://github.com/KatHardy01/Project-1/blob/main/Notebooks/Cleaned_Files/Hulu%20Dataset.ipynb)
+* [HBO Max Notebook](https://github.com/KatHardy01/Project-1/blob/main/Notebooks/Cleaned_Files/HBO%20Dataset.ipynb)
+* [Netflix](https://github.com/KatHardy01/Project-1/blob/main/Notebooks/Cleaned_Files/Netflix%20Dataset.ipynb)
 * [Master Analysis](https://github.com/KatHardy01/Project-1/blob/main/Notebooks/Master%20Analysis.ipynb)
 
 
 ## Slideshow Presentation Link
-* [Competing Streaming Services Slidedeck](https://docs.google.com/presentation/d/1dDlaAHCHg8Mvsx-IGkSL6iZ6WL2cq6LK_y2lsOxYR3g/edit?usp=sharing)
+* [Competing Streaming Services Slidedeck](https://docs.google.com/presentation/d/1R9uEAbSm3jXMbDZ5Hc-CgKV7WD4EyWN2_fCbdLx89-k/edit?usp=sharing)
 
 ## Sources Cited 
+Duarte. (2024) _Video streaming statistics: Trends and insights_. Exploding Topics. Retrieved January 15, 2025, from https://explodingtopics.com/blog/video-streaming-stats#
 
+Koblin, J. (2024, April 20). _Streaming services are making me do this_. The New York Times. Retrieved January 15, 2025, from https://www.nytimes.com/2024/04/20/business/media/streaming-subscription-jumping.html#:~:text=Now%2C%20with%20a%20pared%2Ddown,are%20making%20me%20do%20this
 
+Nielsen. (2024). _Streaming unwrapped: Streaming viewership goes to the library in 2023_. Nielsen. Retrieved January 14, 2025, from https://www.nielsen.com/insights/2024/streaming-unwrapped-streaming-viewership-goes-to-the-library-in-2023/#:~:text=In%202023%2C%20U.S.%20audiences%20streamed,binge%20throughout%20much%20of%202023.
 
-
-
+Stroll. (2023). _Reasons for canceling video streaming subscriptions in the U.S. 2023_. Stastia. Retrieved January 15, 2025, from https://www.statista.com/statistics/672663/reasons-cancel-streaming-subscriptions/#:~:text=Reasons%20for%20canceling%20video%20streaming%20subscriptions%20in%20the%20U.S.%202023&text=According%20to%20a%20survey%20from,no%20longer%20fit%20their%20budgets
 
 
 
